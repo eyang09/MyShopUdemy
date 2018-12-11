@@ -14,9 +14,6 @@ namespace MyShop.DataAccess.SQL
         :base("Con")
         {
 
-
-
-
         }
         
         public DbSet<Product> Products { get; set; }
